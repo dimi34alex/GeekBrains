@@ -1,0 +1,7 @@
+C:\Users\dimi_\Documents\GitHub\GeekBrains\Seminar 3\Seminar 3\obj\Debug\Seminar 3.csproj.AssemblyReference.cache
+C:\Users\dimi_\Documents\GitHub\GeekBrains\Seminar 3\Seminar 3\obj\Debug\Seminar 3.csproj.CoreCompileInputs.cache
+C:\Users\dimi_\Documents\GitHub\GeekBrains\Seminar 3\Seminar 3\bin\Debug\Seminar 3.exe.config
+C:\Users\dimi_\Documents\GitHub\GeekBrains\Seminar 3\Seminar 3\bin\Debug\Seminar 3.exe
+C:\Users\dimi_\Documents\GitHub\GeekBrains\Seminar 3\Seminar 3\bin\Debug\Seminar 3.pdb
+C:\Users\dimi_\Documents\GitHub\GeekBrains\Seminar 3\Seminar 3\obj\Debug\Seminar 3.exe
+C:\Users\dimi_\Documents\GitHub\GeekBrains\Seminar 3\Seminar 3\obj\Debug\Seminar 3.pdb
