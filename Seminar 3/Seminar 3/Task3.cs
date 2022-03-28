@@ -16,6 +16,10 @@ namespace Seminar_3
             get { return d; }
             set { if (d != 0) d = value; else Console.WriteLine("Ошибка! Знаменатель не может равняться нулю!"); }
         }
+        public double Dec
+        {
+            get { return (double)n / d; }
+        }
         public fraction(int n, int d)
         {
             this.n = n;
@@ -80,10 +84,10 @@ namespace Seminar_3
             d = int.Parse(drob.Split('/')[1]);
             fraction f2 = new fraction(n, d);
 
-            Console.Write($"Их сумма: {f1.Sum(f2)} \n");
-            Console.Write($"Их разность: {f1.Diff(f2)} \n");
-            Console.Write($"Их произведение: {f1.Prod(f2)} \n");
-            Console.Write($"Их частное: {f1.Chas(f2)} \n");
+            Console.Write($"Их сумма: {f1.Sum(f2)} = {f1.Sum(f2).Dec}\n");
+            Console.Write($"Их разность: {f1.Diff(f2)} = {f1.Diff(f2).Dec} \n");
+            Console.Write($"Их произведение: {f1.Prod(f2)} = {f1.Prod(f2).Dec} \n");
+            Console.Write($"Их частное: {f1.Chas(f2)} = {f1.Chas(f2).Dec} \n");
         }
     }
 }
