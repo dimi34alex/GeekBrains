@@ -9,16 +9,16 @@ namespace Seminar_3
     class fraction
     {
         public int n; int d;
-        //public double dec = n/d;
-
-        public int Denom
-        {
-            get { return d; }
-            set { if (d != 0) d = value; else Console.WriteLine("Ошибка! Знаменатель не может равняться нулю!"); }
-        }
         public double Dec
         {
             get { return (double)n / d; }
+        }
+        public bool Denom
+        {
+            get { if (d != 0) return true; else return false; }
+            set { if (d != 0) return; }
+
+
         }
         public fraction(int n, int d)
         {
@@ -83,11 +83,16 @@ namespace Seminar_3
             n = int.Parse(drob.Split('/')[0]);
             d = int.Parse(drob.Split('/')[1]);
             fraction f2 = new fraction(n, d);
-
-            Console.Write($"Их сумма: {f1.Sum(f2)} = {f1.Sum(f2).Dec}\n");
-            Console.Write($"Их разность: {f1.Diff(f2)} = {f1.Diff(f2).Dec} \n");
-            Console.Write($"Их произведение: {f1.Prod(f2)} = {f1.Prod(f2).Dec} \n");
-            Console.Write($"Их частное: {f1.Chas(f2)} = {f1.Chas(f2).Dec} \n");
+            if (f1.Denom == true && f2.Denom == true)
+            {
+                Console.Write($"Их сумма: {f1.Sum(f2)} = {f1.Sum(f2).Dec}\n");
+                Console.Write($"Их разность: {f1.Diff(f2)} = {f1.Diff(f2).Dec} \n");
+                Console.Write($"Их произведение: {f1.Prod(f2)} = {f1.Prod(f2).Dec} \n");
+                Console.Write($"Их частное: {f1.Chas(f2)} = {f1.Chas(f2).Dec} \n");
+            }
+            else
+                Console.WriteLine("Ошибка! Знаменатель одной из двух дробей равен нулю!");
+            
         }
     }
 }
