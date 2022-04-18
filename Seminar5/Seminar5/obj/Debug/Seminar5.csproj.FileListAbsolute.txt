@@ -1,0 +1,7 @@
+C:\Users\dimi_\Documents\GitHub\GeekBrains\Seminar5\Seminar5\bin\Debug\Seminar5.exe.config
+C:\Users\dimi_\Documents\GitHub\GeekBrains\Seminar5\Seminar5\bin\Debug\Seminar5.exe
+C:\Users\dimi_\Documents\GitHub\GeekBrains\Seminar5\Seminar5\bin\Debug\Seminar5.pdb
+C:\Users\dimi_\Documents\GitHub\GeekBrains\Seminar5\Seminar5\obj\Debug\Seminar5.csproj.AssemblyReference.cache
+C:\Users\dimi_\Documents\GitHub\GeekBrains\Seminar5\Seminar5\obj\Debug\Seminar5.csproj.CoreCompileInputs.cache
+C:\Users\dimi_\Documents\GitHub\GeekBrains\Seminar5\Seminar5\obj\Debug\Seminar5.exe
+C:\Users\dimi_\Documents\GitHub\GeekBrains\Seminar5\Seminar5\obj\Debug\Seminar5.pdb
